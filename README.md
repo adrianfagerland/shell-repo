@@ -5,7 +5,7 @@
 1. With poetry installed (`pip install poetry`), and in the folder where you wish to store your project, create a new project with:
 
 ```bash
-poetry new [project-name]
+poetry new --src [project-name]
 cd [project-name] # or potentially `code [project-name]` if using vscode
 ```
 
