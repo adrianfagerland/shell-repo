@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "shell-repo"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Fagerland <adrian.fagerland@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.7"
+pre-commit = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
