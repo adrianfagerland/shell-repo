@@ -17,7 +17,7 @@ poetry add ruff pre-commit --group dev
 
 3. Copy the `.pre-commit-config.yaml` and `.gitignore` file from this repo to the root of your project. In the future, remember to actively edit the `.gitignore` file if the need arises in order to prevent repo clutter.
 
-4. Create a new repo in the ReLU-NTNU organisation on GitHub. You do not need to add a license, `.gitignore` or `README.md`. Then, copy the URL of the repo which should appear after creating the repo. This should look something like `https://github.com/ReLU-NTNU/solution-seeker.git`. Then, set up git for your project with these commands:
+4. Create a new repo in the ReLU-NTNU organisation on GitHub. You do not need to add a license, `.gitignore`, or `README.md`. Then, copy the URL of the repo which should appear after creating the repo. This should look something like `https://github.com/ReLU-NTNU/solution-seeker.git`. Then, set up git for your project with these commands:
 
 ```bash
 git init
@@ -37,7 +37,7 @@ pre-commit install
 
 ## ! Important notes
 
-- When a new developer clones the repository, they will need to do a few things. Assuming `python`, `pip` and `poetry`, they need to run:
+- When a new developer clones the repository, they will need to do a few things. Assuming `python`, `pip` and `poetry` are installed, they need to run:
 
 ```bash
 poetry install # this installs the dependencies and creates a virtual environment
