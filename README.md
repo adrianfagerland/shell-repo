@@ -1,5 +1,7 @@
 # ReLU-NTNU Repository Template
 
+*This will be updated with `uv`. This approach is not recommended anymore*
+
 ## How to create a repo like this
 
 1. With poetry installed (`pip install poetry`), and in the folder where you wish to store your project, create a new project with:
