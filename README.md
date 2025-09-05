@@ -2,7 +2,7 @@
 
 ## How to create a repo like this
 
-1. I strongly recommend using [`uv`](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer) as your python environment manager.
+1. We use [`uv`](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer), install it if you do not yet have it. Run these commands:
 
 ```bash
 mkdir [project-name] # this will make a folder for your project
@@ -10,13 +10,13 @@ cd [project-name] # this will go into the folder. If using VSCode, you can open 
 uv init --package # this creates a package with the name of the folder ([project-name])
 ```
 
-2. Install `ruff` and `pre-commit` to the dev dependencies in the `pyproject.toml` file. This is done by running:
+2. Install `ruff`, `pre-commit` and `ty` as dev dependencies in the `pyproject.toml` file. This is done by running:
 
 ```bash
 uv add ruff pre-commit ty --dev
 ```
 
-3. Copy the `.pre-commit-config.yaml` and `.gitignore` file from this repo to the root of your project. In the future, remember to actively edit the `.gitignore` file if the need arises in order to prevent repo clutter. Then you can run:
+3. Copy the `.pre-commit-config.yaml` and `.gitignore` file from this repo to the root of your project, overwriting the `.gitignore` file generated with `uv init --package`. In the future, remember to actively edit the `.gitignore` file if the need arises in order to prevent repo clutter. Then you can run:
 
 ```bash
 uv run pre-commit install
