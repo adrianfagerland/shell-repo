@@ -13,7 +13,7 @@ uv init --package # this creates a package with the name of the folder ([project
 2. Install `ruff` and `pre-commit` to the dev dependencies in the `pyproject.toml` file. This is done by running:
 
 ```bash
-uv add ruff pre-commit --dev
+uv add ruff pre-commit ty --dev
 ```
 
 3. Copy the `.pre-commit-config.yaml` and `.gitignore` file from this repo to the root of your project. In the future, remember to actively edit the `.gitignore` file if the need arises in order to prevent repo clutter. Then you can run:
@@ -39,7 +39,7 @@ git push -u origin main
 
 ```bash
 uv sync # this creates a virtual environment and installs the dependencies
-source .venv/bin/activate # this activates the virtual environment in the terminal. If using VSCode, you should also select the virtual environment in the bottom left corner, or using the "Python: Select Interpreter" command
+source .venv/bin/activate # this activates the virtual environment in the terminal. If using VSCode, you should also select the virtual environment in the bottom left corner, or using the "Python: Select Interpreter" VSCode command
 uv run pre-commit install # this installs the pre-commit hooks
 ```
 

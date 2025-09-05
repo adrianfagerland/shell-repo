@@ -18,4 +18,5 @@ build-backend = "hatchling.build"
 dev = [
     "pre-commit>=4.1.0",
     "ruff>=0.9.4",
+    "ty>=0.0.1a20",
 ]
