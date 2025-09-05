@@ -25,9 +25,7 @@ uv run pre-commit install
 4. Create a new repo in the ReLU-NTNU organisation on GitHub. You do not need to add a license, `.gitignore`, or `README.md`. Then, copy the URL of the repo which should appear after creating the repo. This should look something like `https://github.com/ReLU-NTNU/solution-seeker.git`. Then, set up git for your project with these commands:
 
 ```bash
-git init
 git remote add origin [url]
-git branch -M main
 git add .
 git commit -m "initial commit"
 git push -u origin main
